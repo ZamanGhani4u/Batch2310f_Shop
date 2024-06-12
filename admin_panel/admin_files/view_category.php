@@ -96,7 +96,7 @@ while($row = $result->fetch_assoc())
   <td><?php echo $row['cat_id']?></td>
   <td><?php echo $row['cat_Name']?></td>
   <td>
-    <a class="btn btn-danger">Delete</a>
+    <a class="btn btn-danger" href="delete_category.php?id=<?php echo $row['cat_id']; ?>">Delete</a>
     <a class="btn btn-primary">Edit</a>
 
 </tr>

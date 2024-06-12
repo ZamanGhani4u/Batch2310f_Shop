@@ -1,4 +1,5 @@
 <?php
+
 $_hostname = "localhost";
 $_database="batch2310f_eshop";
 $_user = "root";
